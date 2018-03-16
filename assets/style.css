@@ -203,6 +203,7 @@ form{
     color: #1D5EA8;
     font-size: 36px;
     margin-left: 40px;
+    align-self: end;
 }
 
 
@@ -241,7 +242,7 @@ input[name="subject"]{
 textarea[name="message"]{
     grid-area: message;
     width: 100%;
-    height: 100%;
+    height: 75%;
     font-family: Roboto Slab, Sans-Serif;
     font-size: 18px;
 }
@@ -249,7 +250,6 @@ textarea[name="message"]{
 input[name="submit"]{
     grid-area: submit;
     font-family: Roboto Slab, Sans-Serif;
-    font-size: 100px;
     width: 50%;
     align-self: center;
     justify-self: end;
@@ -299,7 +299,7 @@ img {
 /* 
 ** FULL SCREEN
 */
-@media only screen and (min-width: 1250px){
+@media only screen and (min-width: 1200px){
     /* 
     ** INTRO SECTION
     */
@@ -358,8 +358,11 @@ img {
      /* 
     ** END OF SKILLSSECTION
     */
+    #Contact{
+        height: 700px;
+    }
     #Contact h1{
-        font-size: 72px;
+        font-size: 96px;
     }
     form{
         display:grid;
@@ -391,12 +394,20 @@ img {
         justify-self: stretch;
         width: 30%;
     }
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: -10em;
+    width: 20%;
+}
 }
 
 /* 
 ** END OF FULL SCREEN
 */
-@media only screen and (min-width: 600px) and (max-width: 1250px){
+@media only screen and (min-width: 600px) and (max-width: 1200px){
         .introduction{
             background: url(/assets/images/photo-7.jpg);
             background-size: cover;
