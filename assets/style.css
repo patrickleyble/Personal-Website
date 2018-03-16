@@ -1,0 +1,417 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: #CCC5B9
+}
+
+p{
+    fonsize: 36px;
+    font-family: Roboto Slab, Sans-Serif;
+}
+
+/*
+**HEADER 
+*/
+header{
+    font-family: Roboto Condensed, Serif;
+    font-size: 36px;
+    width: 100%;
+    position: fixed;
+    
+}
+
+.menu a{
+    margin: 10px;
+    color: #252422;
+}
+
+.logo a{
+    margin: 25px;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    background-color: #1D5EA8;
+    border-radius: 0 0 85PX 0;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;  
+    
+}
+
+nav ul li a{
+    text-decoration: none; 
+}
+
+nav ul li ul{
+    display: none;
+    background-color: #828282;
+    width: max;
+    opacity: 50%;
+    border-radius: 0 0 0 0;
+    padding: 15px;
+}
+
+nav ul li ul li a:hover{
+    color: #1D5EA8;
+    width: 100%;
+    opacity: 0.9;
+    text-align: center;
+    position: relative;
+}
+
+.menu:hover ul{
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+    justify-content: space-around;
+    padding: 15px;
+    width: 130px;
+    height: 350px;
+    opacity: 0.8;
+}
+
+nav ul li ul li a{
+    color: white;
+}
+
+.menu:hover{
+    color: #828282;
+    opacity: 0.9;
+}
+/*
+ ** END OF HEADER 
+ */
+
+/* 
+** BODY
+ */
+
+/* 
+** INTRODUCTION SECTION
+ */
+.introduction{
+    display: flex;
+    background: url(/assets/images/photo-7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 820px;
+    left: -366px;
+    top: -68px;
+ }
+ 
+.introduction p{
+    color: white;
+    text-align: right;
+    margin-top: 550px;
+    margin-right: 40px;
+    margin-left: 100px;
+}
+/* 
+** END OF INTRODUCTION SECTION
+ */
+
+ /* 
+** MAIN BODY
+ */
+main{
+    height: 820px;
+}
+main h1{
+    color: #1D5EA8;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 80px;
+    margin-bottom: 10px;
+
+    
+}
+
+main p{
+    margin-left: 40px;
+    margin-right: 40px;
+   
+}
+
+/* 
+** END OF MAIN BODY
+ */
+
+ /* 
+** SKILLS SECTION
+ */
+#Skills {
+    background-color: #828282;
+    height: 820px;   
+}
+
+#Skills h1{
+    color:#1D5EA8;
+    font-family: Roboto Slab, Sans-Serif;
+    padding-top: 80px;
+    margin-right: 40px;
+    font-size: 48px;
+    text-align: right;
+}
+
+#Skills ul li{
+    text-align: right;
+    list-style-type: none; 
+    font-family: Roboto Slab, Sans-Serif;
+    margin-right: 40px;
+    margin-top: 50px;
+    color: white;
+    font-size: 36px;
+}
+/* 
+** END OF SKILLS SECTION
+ */
+
+/* 
+** CONTACT SECTION W/ FOOTER
+ */
+
+#Contact{
+        height: 750px;
+        margin-top: 75px;
+}
+
+form{
+    display: grid;
+    margin-right: 40px;
+    margin-left: 40px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50px 50px 50px 50px 50px 255px 50px;
+    grid-template-areas: 
+    "header header"
+    "name name"
+    "email email"
+    "number number"
+    "subject subject"
+    "message message"
+    ". submit"
+  
+}
+
+#Contact h1{
+    grid-area: header;
+    color: #1D5EA8;
+    font-size: 36px;
+    margin-left: 40px;
+}
+
+
+input[name="name"]{
+    grid-area: name;
+    width: 100%;
+    height: 35px;
+    font-family: Roboto Slab, Sans-Serif;
+    font-size: 28px;
+}
+
+input[name="email"]{
+    grid-area: email;
+    width: 100%;
+    height: 35px;
+    font-family: Roboto Slab, Sans-Serif;
+    font-size: 28px;
+}
+
+input[name="number"]{
+    grid-area: number;
+    width: 100%;
+    height: 35px;
+    font-family: Roboto Slab, Sans-Serif;
+    font-size: 28px;
+}
+
+input[name="subject"]{
+    grid-area: subject;
+    width: 100%;
+    height: 35px;
+    font-family: Roboto Slab, Sans-Serif;
+    font-size: 28px;
+}
+
+textarea[name="message"]{
+    grid-area: message;
+    width: 100%;
+    height: 100%;
+    font-family: Roboto Slab, Sans-Serif;
+    font-size: 18px;
+}
+
+input[name="submit"]{
+    grid-area: submit;
+    font-family: Roboto Slab, Sans-Serif;
+    font-size: 100px;
+    width: 50%;
+    align-self: center;
+    justify-self: end;
+}
+
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.footer{
+
+    list-style-type: none;
+    background-color: #252422;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.footer li a{
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+    align-self: flex-end;
+}
+
+.footer li{
+    margin: 10px;
+}
+
+.footer li a:hover{
+    color: #1D5EA8;
+}
+/* 
+** END OF CONTACT SECTION W/ FOOTER
+ */
+
+
+
+/* 
+**MEDIA QUERIES
+*/
+
+/* 
+** FULL SCREEN
+*/
+@media only screen and (min-width: 1250px){
+    /* 
+    ** INTRO SECTION
+    */
+    .introduction{
+        background: url(/assets/images/photo-7.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 1024px;
+    }
+    .introduction p{
+        text-align: right;
+        margin-top: 600px;
+        margin-right: 220px;
+        margin-left: 600px;
+        font-size: 36px;
+        }
+    nav ul{
+        height: 62px;
+    }
+    header{
+        font-size: 50px;    
+    }
+    /* 
+    ** ABOUT SECTION
+    */
+    #About{
+        height: 955px;
+    }
+    #About h1{
+        font-size: 56px;
+    }
+    #About p{
+        font-size: 30px;
+        margin-right: 220px;
+        margin-top: 60px;
+        margin-left: 80px;
+    }
+    /* 
+    ** END OF ABOUT SECTION
+    */
+     /* 
+    ** END OF SKILLS SECTION
+    */
+    #Skills{
+        height: 955px;
+    }
+    #Skills h1{
+        margin-right: 260px;
+        font-size: 56px;
+    }
+    #Skills ul{
+        margin-right: 220px;
+        align-items: right;
+    }
+     /* 
+    ** END OF SKILLSSECTION
+    */
+    #Contact h1{
+        font-size: 72px;
+    }
+    form{
+        display:grid;
+        margin-right: 40px;
+        margin-left: 40px;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50px 50px 50px 50px 50px 245px 50px;
+        grid-template-areas: 
+        "header header"
+        "name message"
+        "email message"
+        "number message"
+        "subject message"
+        "submit message"
+    }
+    input[name="name"]{
+        width: 90%;
+    }
+    input[name="email"]{
+        width: 90%;
+    }
+    input[name="number"]{
+        width: 90%;
+    }
+    input[name="subject"]{
+        width: 90%;
+    }
+    input[type="submit"]{
+        justify-self: stretch;
+        width: 30%;
+    }
+}
+
+/* 
+** END OF FULL SCREEN
+*/
+@media only screen and (min-width: 600px) and (max-width: 1250px){
+        .introduction{
+            background: url(/assets/images/photo-7.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 1024px;
+        }
+        .introduction p{
+            text-align: right;
+            margin-top: 700px;
+            margin-right: 100px;
+            margin-left: 100px;
+            font-size: 30px;
+        }
+    }
+/* 
+**END OF MEDIA QUERIES
+*/
