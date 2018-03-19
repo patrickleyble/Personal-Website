@@ -1,30 +1,22 @@
 # **PROJECT 2** 
+---
+The purpose of the project is to create a personal static webpage that will showcase skills regarding HTML, CSS, and Designing.
 
-The purpose of the project is to create a personal static webpage that will showcase skills regarding html, CSS, and designing.
+---
+* Website is live at https://patrickleyble.netlify.com
+---
 
 ## **Designing Phase**
 
 ### Inspiration
 The main concept of my webpage is to represent myself. I started choosing a color palette by looking at my wardrobe as it collectively demonstrate what color I like most. Eventually I decided that my main color pallete will focus on different shades of black and white, and look for a contrasting color to give a positive mood to the page.
 
---> insert image of wardrobe
 ### Image Selection
 Images are gathered from [Pinterest](https://www.pinterest.com.au/) and [Pixabay](https://pixabay.com/)
 
-#### Images:
-![Image 1](./assets/images/photo-1.jpg)
+Final image to use as background for the website is:
 
-![Image 2](./assets/images/photo-2.jpg)
-
-![Image 3](./assets/images/photo-3.jpg)
-
-![Image 4](./assets/images/photo-4.jpg)
-
-![Image 5](./assets/images/photo-5.jpg)
-
-![Image 6](./assets/images/photo-6.jpg)
-
-![Image 7](./assets/images/photo-7.jpg)
+![Background Image](./assets/images/photo-7.jpg)
 Image source: [emkanicepic](https://pixabay.com/en/tree-landscape-nature-fog-3080940/)
 ### Typography
 Two serif fonts and two sans serif fonts from [google fonts](https://fonts.google.com/) were chosen for typography matching.
@@ -38,7 +30,7 @@ Sans Serif
 * Roboto Slab
 
 ### Color Palette
-Three sets of color palette were generated using [coolors](https://coolors.co/). All sets have base colors of 2 different shades between black and white, and 2 additional colors that complements it.
+Three sets of color palette were generated using [coolors](https://coolors.co/).
 
 * Color Palette 1
 <p style="background-color: white;">
@@ -54,10 +46,38 @@ Three sets of color palette were generated using [coolors](https://coolors.co/).
 
 ### Layout
 
-### Figma
+Full layout and design is created using Figma. Logo is created using [Canva](https://www.canva.com/)
 
-## HTML and CSS
+Full project design using Figma: https://www.figma.com/file/SgTF5puUrDhLK78l2z3y8ySy/Project-2
 
-## COMMENTS
+Main Logo:
+![Main Logo](./assets/images/pat-logo.png)
 
+Head Logo:
+![Header Logo](./assets/images/head-logo.png))
+
+---
 ## FINAL RESULT
+
+### Learning Outcome
+- Utilise HTML and CSS, and gain knowledge in creating a static webpage.
+- Develop a better understanding regarding designing.
+- Learn to use different tools to design the basic layout and logo.
+- Learn how to use Git and utilise Github as our main repository.
+
+### Compatibility
+
+#### Device
+- Mobile device
+- Ipad/tablet
+- Desktop
+
+#### Browser
+
+- All browser
+
+### Future Improvements
+
+- Include animations
+- Update design base on trend
+- implelement future skill set to enhance website's interface 
