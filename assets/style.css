@@ -3,12 +3,15 @@
     padding: 0;
 }
 body{
-   background-color: #CCC5B9
+   background-color: #CCC5B9;
 }
 
 p{
     fonsize: 32px;
     font-family: Roboto Slab, Sans-Serif;
+}
+.hidden{
+    display: none;
 }
 
 /*
@@ -19,7 +22,6 @@ header{
     font-size: 36px;
     width: 100%;
     position: fixed;
-    
 }
 
 .menu a{
@@ -51,7 +53,6 @@ nav ul li a{
 nav ul li ul{
     display: none;
     background-color: #828282;
-    width: max;
     opacity: 50%;
     border-radius: 0 0 0 0;
     padding: 15px;
@@ -77,13 +78,8 @@ nav ul li ul li a:hover{
     opacity: 0.8;
 }
 
-nav ul li ul li a{
-    color: white;
-}
-
 .menu:hover{
     color: #828282;
-    opacity: 0.9;
 }
 /*
  ** END OF HEADER 
@@ -215,6 +211,9 @@ input[name="name"]{
     height: 35px;
     font-family: Roboto Slab, Sans-Serif;
     font-size: 28px;
+    border: 1px solid black;
+    border-radius: 8px; 
+    padding-left: 10px;
 }
 
 input[name="email"]{
@@ -223,6 +222,9 @@ input[name="email"]{
     height: 35px;
     font-family: Roboto Slab, Sans-Serif;
     font-size: 28px;
+    border: 1px solid black;
+    border-radius: 8px; 
+    padding-left: 10px;
 }
 
 input[name="number"]{
@@ -231,6 +233,9 @@ input[name="number"]{
     height: 35px;
     font-family: Roboto Slab, Sans-Serif;
     font-size: 28px;
+    border: 1px solid black;
+    border-radius: 8px; 
+    padding-left: 10px;
 }
 
 input[name="subject"]{
@@ -239,6 +244,9 @@ input[name="subject"]{
     height: 35px;
     font-family: Roboto Slab, Sans-Serif;
     font-size: 28px;
+    border: 1px solid black;
+    border-radius: 8px; 
+    padding-left: 10px;
 }
 
 textarea[name="message"]{
@@ -247,6 +255,9 @@ textarea[name="message"]{
     height: 75%;
     font-family: Roboto Slab, Sans-Serif;
     font-size: 18px;
+    border: 1px solid black;
+    border-radius: 8px; 
+    padding-left: 10px;
 }
 
 input[name="submit"]{
@@ -255,6 +266,8 @@ input[name="submit"]{
     width: 50%;
     align-self: start;
     justify-self: end;
+    border: 1px solid black;
+    border-radius: 8px; 
 }
 
 img { 
@@ -522,4 +535,4 @@ img {
 }
 /* 
 **END OF MEDIA QUERIES
-*/   */
+*/  

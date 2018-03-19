@@ -56,12 +56,15 @@
         <!-- Contact page -->
         <section id="Contact">
             <h1>Contact</h1>
-                <form method="get">
+                <form method="post" netlify-honeypot="bot-field" action="/pages/form-success.html" netlify>
+                    <p class="hidden">
+                        <label>Don’t fill this out if you're human: <input name="bot-field"></label></p>
                     <input type="text" name="name" placeholder="Name*" /><br />
                     <input type="email" name="email" placeholder="Email*" /><br />
-                    <input type="text" name="number" placeholder="Contact No.*" /><br />
+                    <input type="tel" name="number" placeholder="Contact No.*" minlength="10"/><br />
                     <input type="text" name="subject" placeholder="Subject*" /><br />
                     <textarea name="message" placeholder="Message Here*"></textarea><br />
+                    <!-- <div netlify-recaptcha></div> -->
                     <input type="submit" name="submit" />
                 </form>
             <img src="/assets/images/logo2.png" align="middle" alt="Logo of Patrick Leyble" />
