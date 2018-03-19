@@ -7,7 +7,7 @@ body{
 }
 
 p{
-    fonsize: 36px;
+    fonsize: 32px;
     font-family: Roboto Slab, Sans-Serif;
 }
 
@@ -63,6 +63,7 @@ nav ul li ul li a:hover{
     opacity: 0.9;
     text-align: center;
     position: relative;
+    border-bottom: 3px solid;
 }
 
 .menu:hover ul{
@@ -167,6 +168,7 @@ main p{
     margin-top: 50px;
     color: white;
     font-size: 36px;
+    text-decoration: underline;
 }
 /* 
 ** END OF SKILLS SECTION
@@ -251,7 +253,7 @@ input[name="submit"]{
     grid-area: submit;
     font-family: Roboto Slab, Sans-Serif;
     width: 50%;
-    align-self: center;
+    align-self: start;
     justify-self: end;
 }
 
@@ -263,13 +265,11 @@ img {
 }
 
 .footer{
-
     list-style-type: none;
     background-color: #252422;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: center;  
 }
 
 .footer li a{
@@ -299,7 +299,7 @@ img {
 /* 
 ** FULL SCREEN
 */
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1260px){
     /* 
     ** INTRO SECTION
     */
@@ -349,27 +349,45 @@ img {
     }
     #Skills h1{
         margin-right: 260px;
-        font-size: 56px;
+        font-size: 96px;
     }
     #Skills ul{
-        margin-right: 220px;
-        align-items: right;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        columns: 2;
+        list-style-position: inside;
+        text-align: center;
+        margin-right: 19%;
+        padding-top: 7%;
     }
+    #Skills ul li{
+        display: block;
+        font-size: 72px;
+        margin: 0;
+        padding:15px;
+        text-align: center;
+    }
+        
+    
      /* 
     ** END OF SKILLSSECTION
+    */
+
+     /* 
+    ** CONTACT AND FOOTER SECTION
     */
     #Contact{
         height: 700px;
     }
     #Contact h1{
-        font-size: 96px;
+        font-size: 72px;
     }
     form{
         display:grid;
-        margin-right: 40px;
-        margin-left: 40px;
+        margin-right: 8%;
+        margin-left: 8%;
         grid-template-columns: 50% 50%;
-        grid-template-rows: 50px 50px 50px 50px 50px 245px 50px;
+        grid-template-rows: 50px 50px 50px 50px 50px 100px;
         grid-template-areas: 
         "header header"
         "name message"
@@ -391,38 +409,117 @@ img {
         width: 90%;
     }
     input[type="submit"]{
-        justify-self: stretch;
-        width: 30%;
+        width: 15%;
+        align-self: start;
+        margin-right: 65px;
+        margin-top: 10px;
     }
-img { 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    
+    img { 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -5em;
+        width: 24%;
+    }
 
-    margin-top: -10em;
-    width: 20%;
-}
+    .footer{
+        list-style-type: none;
+        background-color: #252422;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }  
 }
 
 /* 
 ** END OF FULL SCREEN
 */
-@media only screen and (min-width: 600px) and (max-width: 1200px){
-        .introduction{
-            background: url(/assets/images/photo-7.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            height: 1024px;
-        }
-        .introduction p{
-            text-align: right;
-            margin-top: 700px;
-            margin-right: 100px;
-            margin-left: 100px;
-            font-size: 30px;
-        }
+@media only screen and (min-width: 600px) and (max-width: 1259px){
+    /* 
+    ** HEADER
+    */
+    .introduction{
+        background: url(/assets/images/photo-7.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 1024px;
     }
+    .introduction p{
+        text-align: right;
+        margin-top: 700px;
+        margin-right: 100px;
+        margin-left: 100px;
+        font-size: 30px;
+    }
+    /* 
+    ** END OF HEADER
+    */
+
+    /* 
+    ** ABOUT
+    */
+    #About{
+        height: 950px;
+    }
+    #About h1{
+        font-size: 48px;
+    }
+    #About p{
+        font-size: 20px;
+        margin-right: 20%;
+        margin-top: 60px;
+        margin-left: 10%;
+    }
+    /* 
+    ** END OF ABOUT
+    */
+
+    /* 
+    ** SKILLS
+    */
+    #Skills{
+        height: 955px;
+    }
+    #Skills h1{
+        margin-right: 12%;
+        font-size: 62px;
+    }
+    #Skills ul{
+        -webkit-columns: 2;
+        -moz-columns: 2;
+        columns: 2;
+        list-style-position: inside;
+        text-align: center;
+        margin-right: 15%;
+        padding-top: 180px;
+    }
+    #Skills ul li{
+        font-size: 55px;
+        margin: 0;
+        padding:10px;
+        text-align: center;
+    }
+
+    /* 
+    ** END OF SKILLS
+    */
+
+    /* 
+    ** CONTACT
+    */
+    #Contact h1{
+        font-size: 48px;
+    }
+    form{
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+    /* 
+    ** END OF CONTACT
+    */
+}
 /* 
 **END OF MEDIA QUERIES
-*/
+*/   */
