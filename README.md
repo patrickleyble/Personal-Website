@@ -51,10 +51,12 @@ Full layout and design is created using Figma. Logo is created using [Canva](htt
 Full project design using Figma: https://www.figma.com/file/SgTF5puUrDhLK78l2z3y8ySy/Project-2
 
 Main Logo:
+
 ![Main Logo](./assets/images/pat-logo.png)
 
 Head Logo:
-![Header Logo](./assets/images/head-logo.png))
+
+![Header Logo](./assets/images/head-logo.png)
 
 ---
 ## FINAL RESULT
