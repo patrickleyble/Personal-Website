@@ -1,6 +1,8 @@
+<div id="top"></div>
+
 # **PROJECT 2** 
 ---
-The purpose of the project is to create a personal static webpage that will showcase skills regarding HTML, CSS, and Designing.
+The purpose of the project is to create a personal static webpage that will showcase knowledge on HTML, CSS, and Designing.
 
 ---
 * Website is live at https://patrickleyble.netlify.com
@@ -63,7 +65,15 @@ Head Logo:
 
 ### Learning Outcome
 - Utilise HTML and CSS, and gain knowledge in creating a static webpage.
-- Develop a better understanding regarding designing.
+    - HTML
+        - Creating a semantic structure of html document.
+        - Effective assignment of classes and ID.
+        - Better understanding of meta tags.
+    - CSS
+        - Better understanding on positioning elements using Flex and Grid.
+        - Better understanding on using media queries for wireframes compatibility.
+        - Better knowledge of using CSS in general.
+- Develop a better understanding on design and design processes.
 - Learn to use different tools to design the basic layout and logo.
 - Learn how to use Git and utilise Github as our main repository.
 
@@ -83,3 +93,6 @@ Head Logo:
 - Include animations
 - Update design base on trend
 - implelement future skill set to enhance website's interface 
+
+---
+[Back to top](#top)
